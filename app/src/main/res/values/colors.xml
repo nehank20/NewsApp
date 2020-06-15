@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d50000</color>
+    <color name="colorPrimaryDark">#9b0000</color>
+    <color name="colorAccent">#d50000</color>
+
+
+    <color name="temp1">#7f0000</color>
+    <color name="temp2">#000051</color>
+    <color name="temp3">#00251a</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="color_grey_90">#e6e6e6</color>
+    <color name="color_grey_80">#cccccc</color>
+    <color name="color_grey_60">#999999</color>
+    <color name="color_grey_40">#666666</color>
+    <color name="color_grey_30">#4d4d4d</color>
+    <color name="color_grey_20">#333333</color>
+    <color name="colorBlack">#000</color>
+</resources>
