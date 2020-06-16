@@ -8,7 +8,6 @@ import androidx.navigation.ui.setupWithNavController
 import com.poilkar.nehank.newsapp.R
 import com.poilkar.nehank.newsapp.db.ArticleDatabase
 import com.poilkar.nehank.newsapp.repo.NewsRepository
-import com.poilkar.nehank.newsapp.util.NewsViewModel
 import kotlinx.android.synthetic.main.activity_news.*
 
 class NewsActivity : AppCompatActivity() {

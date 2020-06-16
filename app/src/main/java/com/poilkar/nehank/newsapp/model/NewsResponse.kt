@@ -3,6 +3,7 @@ package com.poilkar.nehank.newsapp.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import java.io.Serializable
 
 data class NewsResponse(
     val articles: List<Article>,
@@ -25,7 +26,7 @@ data class Article(
     val title: String,
     val url: String,
     val urlToImage: String
-)
+) : Serializable
 
 data class Source(
     val id: String,
