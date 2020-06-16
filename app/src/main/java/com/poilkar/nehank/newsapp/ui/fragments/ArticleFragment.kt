@@ -5,6 +5,7 @@ import android.view.View
 import android.webkit.WebViewClient
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
+import com.google.android.material.snackbar.Snackbar
 import com.poilkar.nehank.newsapp.R
 import com.poilkar.nehank.newsapp.ui.NewsActivity
 import com.poilkar.nehank.newsapp.ui.NewsViewModel
@@ -27,6 +28,11 @@ class ArticleFragment : Fragment(R.layout.fragment_article) {
 
             val webSettings = webView.settings
             webSettings.javaScriptEnabled = true
+        }
+
+        fab.setOnClickListener {
+            viewmodel.saveArticle(article)
+            Snackbar.make(view, "Article saved successfully", Snackbar.LENGTH_LONG).show()
         }
     }
 }
